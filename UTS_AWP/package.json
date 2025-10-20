@@ -4,7 +4,10 @@
   "description": "\"# bijikopi\" \r \"# bijikopi\"",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +17,8 @@
     "ejs": "^3.1.10",
     "express": "^5.1.0",
     "express-session": "^1.18.2",
-    "mysql2": "^3.15.2",
-    "node": "^24.10.0"
-  }, 
+    "mysql2": "^3.15.2"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
